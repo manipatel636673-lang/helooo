@@ -3,3 +3,10 @@ b = float(input("enter second no: "))
 
 print(f"addition :{a+b}")
 print(f"substraction :{a-b}")
+print(f"multiplication :{a*b}")
+if b != 0:
+    print("division not allowed")
+else:
+    print("division:{a/b}")
+    
+
